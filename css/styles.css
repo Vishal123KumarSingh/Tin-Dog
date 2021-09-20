@@ -1,0 +1,198 @@
+body{
+    text-align: center;
+}
+#title{
+    /* background-color: #ff4c68; */
+    /* color: #fff; */
+    padding-bottom: 10%;
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', 'sans-serif'; 
+   
+}
+
+
+.container-fluid{
+    padding: 3% 5%; 
+}
+ 
+
+/* Section based On color */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+    color: black;
+}
+
+.big-heading{
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#coloradd{
+    background-color: #db4c61;
+}
+
+/* .title img{
+    height: 80%;
+    position: absolute;
+    
+} */
+
+/* Navbar styling */
+.navbar{
+    margin-bottom: 3.5rem;
+    padding-left: 0;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.nav-link :hover{
+    color: aqua;
+}
+
+/* Downlaod Button */
+.downloadbutton{
+    margin-top: 5%;
+}
+
+/* Title Image */
+
+.titleimage{
+    width: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+
+}
+.Section-head{
+    font-size: 4rem;
+}
+
+/* Feature Section */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; */
+}
+.feature-box{
+    /* text-align: center; */
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68 ;
+}
+
+.feature-head{
+    font-size: 1.5rem;
+}
+
+
+/* Testimonials Section */
+#testimonials{
+    /* padding: 7% 14%; */
+    /* text-align: center; */
+    background-color: #ef8172;
+}
+
+.carousel-item{
+    padding: 7% 14%;
+}
+.testimonial-img{
+    width: 20%;
+    border-radius: 100%;
+    padding: 20px;
+}
+.testimonial-head{
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #fff;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 4%;
+    /* text-align: center; */
+}
+.image-size{
+    width: 15%;
+    padding-left:20px ;
+}
+
+/* Pricing Section */
+#pricing{
+    padding: 5%;
+    background-color: antiquewhite;
+    text-align: center;
+    color: rgb(8, 5, 5);
+}
+
+.dog-img{
+    width: 100%;
+    height: 200px;
+    border-radius: 50%;
+
+}
+.price-head{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#pricing h2, h3 {
+    color: black;
+}
+
+#cta{
+    /* background-color:#ff4c68 ; */
+    /* text-align: center; */
+    padding: 8% 15%;
+    /* color: #fff; */
+}
+
+#cta h3{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.padd{
+    padding-ottom: 30px;
+}
+
+#footer{
+    /* text-align: center; */
+    padding: 5% 20%;
+}
+
+.design-logo{
+    font-size: 30px;
+    padding: 2%;
+    color: black;
+}
+
+
+/* Responsive USing Media Queries */
+@media (max-width: 1000px) {
+    #title{
+        text-align: center;
+    }
+
+    .titleimage{
+        position: static;
+        transform: rotate(0);
+        margin-top: 5%;
+    }
+}
